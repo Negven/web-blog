@@ -1,0 +1,14 @@
+.myBtn {
+    padding: 5px 10px;
+    color: #303030;
+    background: #fcecd8;
+    border-radius: 10px;
+    font-size: 14px;
+    border: 2px solid #fddbb0;
+    cursor: pointer;
+}
+
+.myBtn:focus {
+    border: 2px solid #d99b4f;
+    outline: none;
+}

@@ -1,0 +1,32 @@
+.menu {
+    list-style: none;
+    display: flex;
+    border-bottom: 2px solid #030303;
+    padding-bottom: 15px;
+}
+
+.menu__item {
+    padding: 0 4px;
+    font-size: 1.6rem;
+    margin-left: 10px;
+}
+
+.menu__item_active {
+    border-bottom: 2px solid #7e1f9d;
+}
+
+header {
+    width: 80%;
+    margin: 10px 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+Link, a {
+    color: #000;
+    text-decoration: none;
+}
